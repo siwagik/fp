@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url("/bg1.png");
+    height: 983px;
+}
+.header {
+    padding-top: 44px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43.35px;
+    color: #7B68EE;
+}
+.link {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 43.35px;
+    color: #9370DB;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+}
+.link:hover::after { 
+    content: " ";
+    width: 60px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #9370DB;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.main {
+    margin: 283px auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_information h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.friend {
+    margin-top: 42px;
+    font-family: 'Jost',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.fp {
+    color: #9370DB;
+}
+.buttonOnline {
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+}
+.button {
+    width: 301px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #9370DB;
+    border-radius: 12px;
+    transition: all .5s;
+}
+.button p {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.button img {
+    padding-left: 14px;
+}
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.online {
+    display: flex;
+    align-items: center;
+    margin-left: 43px;
+}
+.circle {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #9370DB;
+}
+.online h2 {
+    margin-left: 7px;
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.online span {
+    color: #9370DB;
+}
+.right {
+    position: relative;
+    padding-right: 45%;
+}
+.right img {
+    position: absolute;
+    left: 0;
+    top: -230px;
+    height: auto;
+}
+.scroll {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+}
+.scroll p {
+    margin-left: 22px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.how_to_start {
+    background-image: url("/bg2.png");
+    margin: 0 auto;
+}
+.hts_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.hts_h1 {
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.cards {
+    margin-top: 93px;
+    display: flex;
+}
+.card1 {
+    background-image: url('/step1.png');
+    background-repeat: no-repeat;
+    width: 368.8px;
+    text-align: center;
+}
+.card_content {
+    padding: 114px 48px 137px 48px;
+}
+.cardh1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.cardp {
+    padding-top: 40px;
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.card2 {
+    margin-left: 48px;
+    background-image: url('/step2.png');
+    background-repeat: no-repeat;
+    width: 368.8px;
+    text-align: center;
+}
+.card3 {
+    margin-left: 48px;
+    background-image: url('/step3.png');
+    background-repeat: no-repeat;
+    width: 368.8px;
+    text-align: center;
+}
+.cardButton {
+    margin-top: 47px;
+}
+.cardButtonP {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.cardButton img {
+    margin-left: 9.6px;
+    width: 19.2px;
+    height: 19px;
+}
+.Button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #9370DB;
+    padding: 17px 0px 18px 0px;
+    border-radius: 5px;
+}
+.Button:hover {
+    cursor: pointer;
+}
+.separator {
+    width: 100%;
+    content: " ";
+    background: rgba(255, 255, 255, 0.5);
+    height: 2px;
+}
+footer {
+    padding-top: 72px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.fantasticpower {
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.vk {
+    margin-right: 30px;
+}
