@@ -2,19 +2,20 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-import head from 'next/head'
+import Head from 'next/head'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
+    <>
+      <Head>
+        <title>FantasticPower</title>
         <meta property="og:title" content="FantasticPower" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://fantasticpower.vercel.app/" />
         <meta property="og:image" content="https://fantasticpower.vercel.app/cringe.jpg" />
         <meta property="og:description" content="Site description" />
-      </head>
-      <body>{children}</body>
-    </html>
-  )
+      </Head>
+      {children}
+    </>
+  );
 }
