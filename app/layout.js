@@ -11,7 +11,7 @@ import Head from 'next/head'
 
 export default function RootLayout({ children }) {
   return (
-    <>
+    <html lang="en">
       <Head>
         <title>FantasticPower</title>
         <meta property="og:title" content="FantasticPower" />
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content="https://fantasticpower.vercel.app/cringe.jpg" />
         <meta property="og:description" content="Site description" />
       </Head>
-      {children}
-    </>
+      <body>{children}</body>
+    </html>
   );
 }
