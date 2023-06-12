@@ -10,8 +10,11 @@ export default function RootLayout({ children }) {
         <title>FantascticPower</title>
 
         <meta property='og:title' content='FantasticPower'/>
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://fantasticpower.vercel.app/'/>
         <meta property='og:description' content='Описание страницы'/>
-        <meta property='og:image' content='/cringe.jpg'/>
+        <meta property='og:image' content='https://fantasticpower.vercel.app/cringe.jpg'/>
+
       </head>
       <body>{children}</body>
     </html>
