@@ -339,7 +339,11 @@ footer {
         margin-left: 0;
 
     }
+    .hts_h1 {
+        margin-left: 15px;
+    }
     footer {
+        margin-left: 15px;
         flex-direction: column;
     }
     .social {
