@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <title>FantascticPower</title>
 
         <meta property='og:title' content='FantasticPower'/>
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <meta property='og:description' content='Описание страницы'/>
         <meta property='og:image' content='https://fantasticpower.vercel.app/cringe.jpg'/>
 
-      </head>
+      </Head>
       <body>{children}</body>
     </html>
   )
