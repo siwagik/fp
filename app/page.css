@@ -295,7 +295,7 @@ footer {
     position: absolute;
 }
 @media screen and (max-width: 1215px) {
-    
+
 }
 @media screen and (max-width: 969px)
 {   
@@ -324,5 +324,25 @@ footer {
         outline: none;
         border: none;
         cursor: pointer;
+    }
+}
+@media screen and (max-width: 420px) {
+    .main {
+        margin-top: 142px;
+        margin-left: 15px;
+    }
+    .buttonOnline {
+        flex-direction: column;
+    }
+    .online {
+        margin-top: 15px;
+        margin-left: 0;
+
+    }
+    footer {
+        flex-direction: column;
+    }
+    .social {
+        margin-top: 15px;
     }
 }
