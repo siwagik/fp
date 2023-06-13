@@ -29,21 +29,12 @@ export default function Home() {
   const handleButtonClick = () => {
     if (divRef.current) {
       const elementOffset = divRef.current.offsetTop;
-      const body = document.body;
-
-      // Добавляем класс с CSS анимацией
-      body.classList.add('scroll-animation');
 
       // Прокручиваем к элементу
       window.scrollTo({
-        top: elementOffset,
+        top: 1000,
         behavior: 'smooth'
       });
-
-      // Удаляем класс после завершения анимации
-      setTimeout(() => {
-        body.classList.remove('scroll-animation');
-      }, 1000); // Установите значение времени равное длительности CSS анимации
     }
   };
 
