@@ -13,8 +13,6 @@ import 'swiper/css/scrollbar';
 
 import { useEffect, useState, useRef, useHtmlProps } from "react";
 
-
-
 export default function Home() {
 
   const navRef = useRef(false)
@@ -27,6 +25,27 @@ export default function Home() {
     }
   };
   
+  const divRef = useRef(null);
+  const handleButtonClick = () => {
+    if (divRef.current) {
+      const elementOffset = divRef.current.offsetTop;
+      const body = document.body;
+
+      // Добавляем класс с CSS анимацией
+      body.classList.add('scroll-animation');
+
+      // Прокручиваем к элементу
+      window.scrollTo({
+        top: elementOffset,
+        behavior: 'smooth'
+      });
+
+      // Удаляем класс после завершения анимации
+      setTimeout(() => {
+        body.classList.remove('scroll-animation');
+      }, 1000); // Установите значение времени равное длительности CSS анимации
+    }
+  };
 
   const copy = useRef(false)
   const handleCopy = () => {
@@ -78,7 +97,7 @@ export default function Home() {
                 <h1>Сеть увлекательных<br/>игровых серверов</h1>
                 <p className="friend">Новые приключения ждут тебя и твоих друзей.<br/>Окунись в новый мир Minecraft вместе с <span className="fp">FantasticPower</span></p>
                 <div className="buttonOnline">
-                  <div className="button">
+                  <div className="button" onClick={handleButtonClick}>
                       <p>Начать игру</p>
                       <img src="/play.png"/>
                   </div>
@@ -98,7 +117,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="how_to_start">
+      <div className="how_to_start" ref={divRef}>
         <div className="hts_container">
           <h1 className="hts_h1">Как начать игру?</h1>
           <div className="cards">

@@ -294,6 +294,10 @@ footer {
 .close-menu {
     position: absolute;
 }
+.scroll-animation {
+    scroll-behavior: smooth;
+    transition: scroll-margin-top 1s ease-in-out;
+}
 @media screen and (max-width: 1215px) {
 
 }
