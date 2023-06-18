@@ -2,7 +2,7 @@ body {
     background-image: url(/bg1.png);
 }
 .main-rules {
-    margin: 283px auto;
+    margin: 200px auto;
     display: flex;
     justify-content: center;
     align-items: center;
