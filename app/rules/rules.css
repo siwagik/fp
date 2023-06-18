@@ -1,0 +1,37 @@
+body {
+    background-image: url(/bg1.png);
+}
+.main-rules {
+    margin: 283px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    color: #9370DB;
+}
+ul {
+    margin-top: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    color: #9370DB;
+}
+.link_rules {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 43.35px;
+    color: #9370DB;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.link_rules:hover {
+    border-bottom: 2px solid #9370DB;
+}

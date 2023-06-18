@@ -1,5 +1,5 @@
 'use client'
-import Link from "next/link";
+import Link from 'next/link'
 import './page.css'
 import { Jost } from 'next/font/google'
 const jost = Jost({ subsets: ['latin'] })
@@ -12,6 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import { useEffect, useState, useRef, useHtmlProps } from "react";
+
 
 export default function Home() {
 
