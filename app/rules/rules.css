@@ -35,3 +35,11 @@ ul {
 .link_rules:hover {
     border-bottom: 2px solid #9370DB;
 }
+@media screen and (max-width: 470px) {
+    .link_rules {
+        font-size: 20px;
+    }
+    ul {
+        font-size: 20px;
+    }
+}
