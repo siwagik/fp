@@ -323,6 +323,17 @@ footer {
         cursor: pointer;
     }
 }
+.footer {
+   display: flex;
+   align-items: center;
+}
+.footer_h1 {
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #868686;
+}
 @media screen and (max-width: 420px) {
     .main {
         margin-top: 142px;
