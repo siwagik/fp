@@ -84,11 +84,6 @@ export default function Rules() {
                     <li><Link href="./dayz" className='link_rules'>Правила DayZ</Link></li>
                 </ul>
             </div>
-            <div className='footer'>
-                <footer>
-                    <h1 className='footer_h1'>FantasticPower не связан с Mojang. Все средства идут на развитие проекта</h1>
-                </footer>
-            </div>
         </div>
     )
 }
