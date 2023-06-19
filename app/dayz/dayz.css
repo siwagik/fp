@@ -21,3 +21,9 @@
 .mark {
     color: #FF1493;
 }
+
+@media screen and (max-width: 750px) {
+    .dayz-rules {
+        margin-left: 15px;
+    }
+}
