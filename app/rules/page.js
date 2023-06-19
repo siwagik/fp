@@ -43,6 +43,7 @@ export default function Rules() {
 
     return(
         <div className="app">
+          <div className='container-rules'>
             <div className="header">
                 <header>
                     <h1 className="logo">FantasticPower</h1>
@@ -84,6 +85,7 @@ export default function Rules() {
                     <li><Link href="./dayz" className='link_rules'>Правила DayZ</Link></li>
                 </ul>
             </div>
+          </div>
         </div>
     )
 }

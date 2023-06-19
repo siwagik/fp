@@ -1,5 +1,6 @@
-body {
+.container-rules {
     background-image: url(/bg1.png);
+    height: 100vh;
 }
 .main-rules {
     margin: 200px auto;
