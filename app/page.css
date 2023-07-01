@@ -326,7 +326,9 @@ footer {
 @media screen and (max-width: 420px) {
     .main {
         margin-top: 142px;
-        margin-left: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
     }
     .buttonOnline {
         flex-direction: column;
