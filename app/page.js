@@ -56,7 +56,7 @@ export default function Home() {
               <Link href="/" className="link ">Главная</Link>
               <Link href="/rules" className="link ">Правила</Link>
               <Link href="https://fantasticpower.ru/" className="link ">Форум</Link>
-              <Link href="/" className="link ">Донат</Link>
+              <Link href="https://shop.fantasticpower.ru" className="link ">Донат</Link>
               <button className="burger" onClick={handleClick}>
                 {isMenuOpen ? (
                   <svg
@@ -141,7 +141,7 @@ export default function Home() {
                     <p className="cardp">Нужно добавить наш IP в список серверов, и сможете приступить к игре :3</p>
                     <div className="cardButton">
                       <div className="Button" ref={copy} onClick={handleCopy}>
-                        <p className="cardButtonP">fantasticpower.net</p>
+                        <p className="cardButtonP">fantasticpower.ru</p>
                         <img src="/copy.png"/>
                       </div>
                     </div>

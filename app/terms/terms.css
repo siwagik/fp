@@ -28,6 +28,7 @@ p {
 
 @media screen and (max-width: 750px) {
     .terms {
-        margin-left: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
