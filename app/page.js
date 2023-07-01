@@ -56,7 +56,7 @@ export default function Home() {
               <Link href="/" className="link ">Главная</Link>
               <Link href="/rules" className="link ">Правила</Link>
               <Link href="https://fantasticpower.ru/" className="link ">Форум</Link>
-              <Link href="https://shop.fantasticpower.ru" className="link ">Донат</Link>
+              <Link href="http://shop.fantasticpower.ru" className="link ">Донат</Link>
               <button className="burger" onClick={handleClick}>
                 {isMenuOpen ? (
                   <svg
