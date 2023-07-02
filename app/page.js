@@ -153,7 +153,7 @@ export default function Home() {
         <div className="separator"></div>
         <footer>
           <div className="fantasticpower">
-            <p>FantasticPower не связан с Mojang. Все средства идут на<br/>развитие проекта</p>
+            <p>FantasticPower не связан с Mojang. Все средства идут на развитие проекта</p>
           </div>
           <div className="social">
             <a href="https://vk.com/fantasticpowerik" className="vk" target="_blank">
