@@ -55,7 +55,7 @@ export default function Home() {
             <nav className={`nav ${isMenuOpen ? 'active' : ''}`} ref={navRef}>
               <Link href="/" className="link ">Главная</Link>
               <Link href="/rules" className="link ">Правила</Link>
-              <Link href="https://fantasticpower.ru/" className="link ">Форум</Link>
+              <Link href="https://vk.com/board220677768" className="link " target='_blank'>Форум</Link>
               <Link href="http://shop.fantasticpower.ru" className="link " target='_blank'>Донат</Link>
               <button className="burger" onClick={handleClick}>
                 {isMenuOpen ? (
