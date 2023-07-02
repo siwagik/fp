@@ -323,6 +323,11 @@ footer {
         border: none;
         cursor: pointer;
     }
+    .close-menu {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
 }
 @media screen and (max-width: 420px) {
     .main {
