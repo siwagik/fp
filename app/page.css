@@ -236,7 +236,8 @@ header {
     align-items: center;
     justify-content: center;
     background-color: #9370DB;
-    padding: 17px 0px 18px 0px;
+    height: 62px;
+    /*padding: 17px 0px 18px 0px;*/
     border-radius: 5px;
 }
 .Button:hover {
