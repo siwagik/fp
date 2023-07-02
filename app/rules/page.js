@@ -79,7 +79,7 @@ export default function Rules() {
                 </header>
             </div>
             <div className='main-rules'>
-                <h1>Наши правила</h1>
+                <h1 className='rules-h1'>Наши правила</h1>
                 <ul>
                     <li><Link href="/terms" className='link_rules'>Условия предоставления услуг</Link></li>
                     <li><Link href="./dayz" className='link_rules'>Правила DayZ</Link></li>

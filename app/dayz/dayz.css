@@ -2,7 +2,7 @@
     max-width: 1200px;
     margin: auto;
 }
-.dayz-rules h1 {
+.dayz-h1 {
     margin-top: 51px;
     font-family: 'Jost',sans-serif;
     font-weight: 600;
@@ -10,7 +10,7 @@
     line-height: 51px;
     color: #000000;
 }
-.dayz-rules p {
+.dayz-p {
     margin-top: 21px;
     font-family: 'Jost',sans-serif;
     font-weight: 500;
