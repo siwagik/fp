@@ -93,10 +93,6 @@ export default function Home() {
                       <p>Начать игру</p>
                       <img src="/play.png"/>
                   </div>
-                  <div className="online">
-                    <div className="circle"></div>
-                    <h2>Сейчас в игре: <span>1200</span></h2>
-                  </div>
                 </div>
               </div>
               <div className="scroll">

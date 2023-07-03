@@ -103,29 +103,6 @@ header {
     cursor: pointer;
     transform: scale(1.1);
 }
-.online {
-    display: flex;
-    align-items: center;
-    margin-left: 43px;
-}
-.circle {
-    content: '';
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #9370DB;
-}
-.online h2 {
-    margin-left: 7px;
-    font-family: 'Jost',sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
-}
-.online span {
-    color: #9370DB;
-}
 .right {
     margin-top: 123px;
     position: relative;
@@ -270,18 +247,17 @@ footer {
 }
 
 .active .link {
-    display: block; /* Задний фон */
-    color: #fff; /* Цвет текста */
+    display: block;
+    color: #fff; 
   }
   
-  /* Стили для раскрытия меню на весь экран */
   .nav.active {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Задний фон */
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,6 +286,12 @@ footer {
     }
 }
 @media screen and (max-width: 750px) {
+    .scroll {
+        margin-top: 80px;
+    }
+    .left_information {
+        margin-top: -50px;
+    }
     .link {
         display: none;
     }
@@ -339,11 +321,6 @@ footer {
     }
     .buttonOnline {
         flex-direction: column;
-    }
-    .online {
-        margin-top: 15px;
-        margin-left: 0;
-
     }
     .hts_h1 {
         margin-left: 15px;
