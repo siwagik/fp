@@ -95,10 +95,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="scroll">
-                <img src="/arrow.png"/>
-                <p>Прокрутите вниз</p>
-              </div>
             </div>
           <div className="right">
             <img src="/character.png"/>

@@ -115,20 +115,6 @@ header {
     max-width: 100%;
     height: auto;
 }
-.scroll {
-    margin-top: 150px;
-    display: flex;
-    align-items: center;
-}
-.scroll p {
-    margin-left: 22px;
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 35px;
-    color: #FFFFFF;
-}
 .how_to_start {
     background-image: url("/bg2.png");
     margin: 0 auto;
@@ -272,11 +258,26 @@ footer {
 .close-menu {
     position: absolute;
 }
+@media screen and (max-width: 1320px) {
+    /* its alright */
+}
+@media screen and (max-width: 1220px) {
+    .container,.hts_container {
+        padding-left: 30px;
+    }
+    footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 1140px) {
+    /* its alright */
+}
 @media screen and (max-width: 969px)
 {   
     .main {
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
     }
     .right {
         display: none;
@@ -285,18 +286,12 @@ footer {
         display: inline;
     }
 }
-@media screen and (max-width: 750px) {
-    .scroll {
-        margin-top: 80px;
-    }
+@media screen and (max-width: 800px) {
     .left_information {
         margin-top: -50px;
     }
     .link {
         display: none;
-    }
-    .logo {
-        margin-left: 15px;
     }
     .burger {
         font-size: 30px;
@@ -312,24 +307,11 @@ footer {
         right: 30px;
     }
 }
-@media screen and (max-width: 420px) {
-    .main {
-        margin-top: 142px;
-        padding-left: 15px;
-        padding-right: 15px;
-        
-    }
-    .buttonOnline {
-        flex-direction: column;
-    }
-    .hts_h1 {
-        margin-left: 15px;
-    }
+@media screen and (max-width: 590px) {
     footer {
-        margin-left: 15px;
         flex-direction: column;
     }
     .social {
-        margin-top: 15px;
+        padding-top: 15px;
     }
 }
