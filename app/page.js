@@ -133,7 +133,7 @@ export default function Home() {
                     <p className="cardp">Нужно добавить наш IP в список серверов, и сможете приступить к игре :3</p>
                     <div className="cardButton">
                       <div className="Button" ref={copy} onClick={handleCopy}>
-                        <p className="cardButtonP">fantasticpower.ru</p>
+                        <p className="cardButtonP">play.fantasticpower.ru</p>
                         <img src="/copy.png"/>
                       </div>
                     </div>
