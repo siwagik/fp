@@ -55,8 +55,8 @@ export default function Home() {
             <nav className={`nav ${isMenuOpen ? 'active' : ''}`} ref={navRef}>
               <Link href="/" className="link ">Главная</Link>
               <Link href="/rules" className="link ">Правила</Link>
-              <Link href="https://vk.com/board220677768" className="link " target='_blank'>Форум</Link>
-              <Link href="http://shop.fantasticpower.ru" className="link " target='_blank'>Донат</Link>
+              <Link href="https://google.com/" className="link " target='_blank'>Форум</Link>
+              <Link href="https://google.com/" className="link " target='_blank'>Донат</Link>
               <button className="burger" onClick={handleClick}>
                 {isMenuOpen ? (
                   <svg
@@ -133,7 +133,7 @@ export default function Home() {
                     <p className="cardp">Нужно добавить наш IP в список серверов, и сможете приступить к игре :3</p>
                     <div className="cardButton">
                       <div className="Button" ref={copy} onClick={handleCopy}>
-                        <p className="cardButtonP">play.fantasticpower.ru</p>
+                        <p className="cardButtonP">https://google.com/</p>
                         <img src="/copy.png"/>
                       </div>
                     </div>
@@ -148,10 +148,10 @@ export default function Home() {
             <p>FantasticPower не связан с Mojang. Все средства идут на развитие проекта</p>
           </div>
           <div className="social">
-            <a href="https://vk.com/fantasticpowerik" className="vk" target="_blank">
+            <a href="https://google.com/" className="vk" target="_blank">
               <img src="/vk.png"/>
             </a>
-            <a href="https://discord.com/invite/8Tu6Wzyqbu" className="discord" target="_blank">
+            <a href="https://google.com/" className="discord" target="_blank">
               <img src="/discord.png"/>
             </a>
           </div>
