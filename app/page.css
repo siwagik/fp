@@ -117,7 +117,7 @@ header {
 }
 .how_to_start {
     background-image: url("/bg2.png");
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .hts_container {
     max-width: 1200px;
